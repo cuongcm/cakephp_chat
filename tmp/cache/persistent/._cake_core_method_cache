@@ -1,2 +1,2 @@
-1388541089
+1388552036
 a:2:{s:4:"name";a:7:{s:32:"e3db2355445e54c260cc9acfa115cbf6";s:14:"`cakephp_chat`";s:32:"f94a437fb7858e092079378f93ef2c71";s:7:"`users`";s:32:"c241eb2c64f82850d5c9e5799e7f9cc1";s:16:"`User`.`user_id`";s:32:"441e6eaad1b5f34da125c63e3ecd7702";s:17:"`User`.`username`";s:32:"46bea0d8cb0ffa1c5c7f63ad1e39035b";s:17:"`User`.`password`";s:32:"97c268dcd8412cd254419ed9b5f0d32e";s:14:"`User`.`email`";s:32:"eb9b37fa6fe3e5c49f921ddcd721b306";s:6:"`User`";}s:6:"fields";a:1:{s:32:"a5692c198584e598286ccb24dd1a78f4";a:4:{i:0;s:16:"`User`.`user_id`";i:1;s:17:"`User`.`username`";i:2;s:17:"`User`.`password`";i:3;s:14:"`User`.`email`";}}}

@@ -199,3 +199,83 @@ Stack Trace:
 #1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #2 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2014-01-01 02:35:58 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp_chat/
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Component/Auth/BaseAuthorize.php(74): ControllerAuthorize->controller(Object(PagesController))
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Component/AuthComponent.php(497): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Component/AuthComponent.php(459): AuthComponent->constructAuthorize()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Component/AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(PagesController))
+#5 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#8 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#10 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-01 02:37:52 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp_chat/
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Component/Auth/BaseAuthorize.php(74): ControllerAuthorize->controller(Object(PagesController))
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Component/AuthComponent.php(497): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Component/AuthComponent.php(459): AuthComponent->constructAuthorize()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Component/AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(PagesController))
+#5 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#8 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#10 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-01 03:01:32 Error: Fatal Error (4): syntax error, unexpected '==' (T_IS_EQUAL) in [/var/www/cakephp_chat/Model/User.php, line 68]
+2014-01-01 03:01:32 Error: [FatalErrorException] syntax error, unexpected '==' (T_IS_EQUAL)
+Request URL: /cakephp_chat/users/register
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 68)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 68, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 68, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-01 03:02:13 Error: [MissingHelperException] Helper class FoirmHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FoirmHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp_chat/users/register
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/HelperCollection.php(63): HelperCollection->load('Foirm')
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(818): HelperCollection->__isset('Foirm')
+#2 /var/www/cakephp_chat/View/Users/register.ctp(6): View->__get('Foirm')
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(929): include('/var/www/cakeph...')
+#4 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(891): View->_evaluate('/var/www/cakeph...', Array)
+#5 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(460): View->_render('/var/www/cakeph...')
+#6 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#7 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#8 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-01-01 04:35:31 Error: [PrivateActionException] Private Action UsersController::log() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'log',
+)
+Request URL: /cakephp_chat/users/log
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-01 04:35:42 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/logout
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

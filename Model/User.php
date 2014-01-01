@@ -11,7 +11,7 @@ App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
 					),
 					'rule2' => array(
 						'rule' => 'usernameExist',
-						'message' =>'Username Aready Exists'
+						'message' =>'Username already exists'
 					)
 				),
 				'password' => array(
@@ -21,8 +21,12 @@ App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
 						),
 					'rule2'=>array(
 							'rule'=>array('minLength', '4'),
-							'message'=>'password min length 4 chars'
+							'message'=>'Password min length 4 chars'
 						)
+					),
+				'password_confirm' => array(
+					'rule'=>'matchPasswd',
+					'message' => 'Please enter match password'
 					),
 				'email' => array(
 					'rule'=>'email',
@@ -35,17 +39,11 @@ App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
 				return FALSE;
 		}
 
-		public function beforeSave($options = array()) {    
-    		// if (isset($this->data['User']['password'])) {
-      //   		$this->data['User']['password'] = AuthComponent::password($this->data['User']['password']);
-    		// }
-    		if (isset($this->data[$this->alias]['password'])) {
-        		$passwordHasher = new SimplePasswordHasher();
-        		$this->data[$this->alias]['password'] = $passwordHasher->hash(
-            		$this->data[$this->alias]['password']
-        		);
-    		}
-    		return true;
+		public function beforeSave($options = array()) {
+		    if (isset($this->data['User']['password'])) {
+		        $this->data['User']['password'] = AuthComponent::password($this->data['User']['password']);
+		    }
+		    return true;
 		}
 
 		public function usernameExist($data){
@@ -58,6 +56,13 @@ App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
 			if( $count != 0 ){
 				return false;
 			}	else return true;
+		}
+
+		public function matchPasswd($data) {
+		    if ( isset($data['password']) && $data['password'] == $this->data['User']['password_confirm']) {
+		        return true;
+		    }
+		    return false;
 		}				
 	}
 ?>

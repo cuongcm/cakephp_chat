@@ -55,7 +55,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'root',
+		'password' => 'altplus',
 		'database' => 'cakephp_chat',
 		'prefix' => '',
 		//'encoding' => 'utf8',

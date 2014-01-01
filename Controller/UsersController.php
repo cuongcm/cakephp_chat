@@ -4,15 +4,15 @@
  		public $components = array('Session');
 
 		var $name = 'Users';
-		public function beforeFilter() {
+		function beforeFilter() {
         	parent::beforeFilter();
     	}
 
 		function index(){
-			//pr($this->Session);
+			pr($this->Auth);
 		}
 
-	    public function login() {
+	    function login() {
 	        if ($this->request->is('post')) {
 	            if ($this->Auth->login()) {
 	                return $this->redirect($this->Auth->redirect());
@@ -22,7 +22,7 @@
 	    }
 
 		function register(){
-			pr($this->data);
+			//pr($this->data);
 			if (!empty($this->data)) {
 				$this->User->set($this->data);
 				if($this->User->validateUser()==TRUE){
@@ -33,6 +33,9 @@
 					$this->Session->setFlash("Please check input again !");
 				}
 			}
+		}
+		function logout() {
+		    $this->redirect($this->Auth->logout());
 		}
 	}
 ?>
