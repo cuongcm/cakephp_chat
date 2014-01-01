@@ -30,7 +30,14 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+			<h1><?php 
+				if ($this->Session->check('Auth.User')){
+					echo '<h3>Welcome you, '.$this->Session->read('Auth.User.username').'</h3>';
+					echo '<h1><a href='.$this->webroot.'users/index>Your Index</a></h1>';
+					echo '<h1><a href='.$this->webroot.'users/logout>Logout</a></h1>';
+				}
+					
+			?></h1>
 		</div>
 		<div id="content">
 
@@ -47,7 +54,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			?>
 		</div>
 	</div>
-	<?php //echo $this->element('sql_dump'); 
+	<?php echo $this->element('sql_dump'); 
 	?>
 </body>
 </html>
