@@ -11,6 +11,19 @@ class Message extends AppModel{
             'foreignKey' => 'thread_id'
         )
     );
+    var $validate = array();
+    public function validateMessage(){
+        $this->validate = array(
+               'content' => array(
+                    'rule'=>'notEmpty',
+                    'message' => 'Please enter some text!'
+                )
+        );
+        if($this->validates($this->validate))
+            return TRUE;
+        else
+            return FALSE;
+    }
 }
 
 ?>

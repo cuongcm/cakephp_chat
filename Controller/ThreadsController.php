@@ -15,6 +15,12 @@ class ThreadsController extends AppController{
 			}
 		}
 	}
+	function chat(){
+		$thread_id = $this->params['named']['id'];
+		$data_thread = $this->Thread->findById($thread_id);
+		$this->set('data_thread',$data_thread);
+		$this->set('thread_id',$thread_id);
+	}
 
 }
 

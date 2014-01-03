@@ -684,3 +684,730 @@ Stack Trace:
 #10 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #11 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2014-01-02 02:12:31 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1049] Unknown database \'cakephp_chat\'',
+  'enabled' => true,
+)
+Request URL: /cakephp_chat/users/login
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(3474): ConnectionManager::getDataSource('default')
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(3496): Model->setSource('users')
+#5 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#7 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#8 /var/www/cakephp_chat/View/Users/login.ctp(3): FormHelper->create('User', Array)
+#9 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(929): include('/var/www/cakeph...')
+#10 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(891): View->_evaluate('/var/www/cakeph...', Array)
+#11 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(460): View->_render('/var/www/cakeph...')
+#12 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#13 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-01-02 18:13:54 Error: [MissingActionException] Action ThreadsController::chat() could not be found.
+Exception Attributes: array (
+  'controller' => 'ThreadsController',
+  'action' => 'chat',
+)
+Request URL: /cakephp_chat/threads/chat
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-02 18:20:52 Error: Fatal Error (1): Class 'Appcontroller' not found in [/var/www/cakephp_chat/Controller/MessagesController.php, line 2]
+2014-01-02 18:20:52 Error: [FatalErrorException] Class 'Appcontroller' not found
+Request URL: /cakephp_chat/messages/add
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Appcontr...', '/var/www/cakeph...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Appcontr...', '/var/www/cakeph...', 2, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Appcontr...', '/var/www/cakeph...', 2, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:26:41 Error: Fatal Error (1): Class 'Appcontroller' not found in [/var/www/cakephp_chat/Controller/MessagesController.php, line 2]
+2014-01-02 18:26:41 Error: [FatalErrorException] Class 'Appcontroller' not found
+Request URL: /cakephp_chat/messages/add
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Appcontr...', '/var/www/cakeph...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Appcontr...', '/var/www/cakeph...', 2, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Appcontr...', '/var/www/cakeph...', 2, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:26:57 Error: Fatal Error (1): Class 'Appcontroller' not found in [/var/www/cakephp_chat/Controller/MessagesController.php, line 2]
+2014-01-02 18:26:57 Error: [FatalErrorException] Class 'Appcontroller' not found
+Request URL: /cakephp_chat/messages/add
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Appcontr...', '/var/www/cakeph...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Appcontr...', '/var/www/cakeph...', 2, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Appcontr...', '/var/www/cakeph...', 2, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:27:15 Error: [MissingControllerException] Controller class MessagesController could not be found.
+Exception Attributes: array (
+  'class' => 'MessagesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/messages/add
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 18:27:36 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/add.ctp',
+)
+Request URL: /cakephp_chat/messages/add
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 18:39:35 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 4]
+2014-01-02 18:39:35 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp_chat/threads/chat/34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 4, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 4, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:39:37 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 4]
+2014-01-02 18:39:37 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp_chat/threads/chat/34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 4, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 4, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:39:38 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 4]
+2014-01-02 18:39:38 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp_chat/threads/chat/34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 4, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 4, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:41:13 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 6]
+2014-01-02 18:41:13 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp_chat/threads/chat/34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:41:15 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 6]
+2014-01-02 18:41:15 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp_chat/threads/chat/34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:41:40 Error: [MissingHelperException] Helper class paramHelper could not be found.
+Exception Attributes: array (
+  'class' => 'paramHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp_chat/threads/chat/34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/HelperCollection.php(63): HelperCollection->load('param')
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(818): HelperCollection->__isset('param')
+#2 /var/www/cakephp_chat/View/Threads/chat.ctp(8): View->__get('param')
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(929): include('/var/www/cakeph...')
+#4 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(891): View->_evaluate('/var/www/cakeph...', Array)
+#5 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(460): View->_render('/var/www/cakeph...')
+#6 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#7 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#8 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-01-02 18:42:51 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 6]
+2014-01-02 18:42:51 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp_chat/threads/chat/34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:42:52 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 6]
+2014-01-02 18:42:52 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp_chat/threads/chat/34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:42:53 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 6]
+2014-01-02 18:42:53 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp_chat/threads/chat/34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:42:54 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 6]
+2014-01-02 18:42:54 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp_chat/threads/chat/34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:42:55 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 6]
+2014-01-02 18:42:55 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp_chat/threads/chat/34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:45:41 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 3]
+2014-01-02 18:45:41 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp_chat/threads/chat/34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 3, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 3, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:45:43 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 3]
+2014-01-02 18:45:43 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp_chat/threads/chat/34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 3, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 3, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:46:05 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/add.ctp',
+)
+Request URL: /cakephp_chat/messages/add
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 18:51:44 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/cakephp_chat/Model/Message.php, line 22]
+2014-01-02 18:51:44 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cakephp_chat/threads/chat/34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 22, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 22, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:52:51 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/add.ctp',
+)
+Request URL: /cakephp_chat/messages/add
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 19:09:27 Error: Fatal Error (1): Call to undefined function is_set() in [/var/www/cakephp_chat/Controller/ThreadsController.php, line 19]
+2014-01-02 19:09:27 Error: [FatalErrorException] Call to undefined function is_set()
+Request URL: /cakephp_chat/threads/chat/thread_id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 19, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 19, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 19:54:48 Error: [MissingControllerException] Controller class ThreadController could not be found.
+Exception Attributes: array (
+  'class' => 'ThreadController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/thread/chat/id:36
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 21:22:30 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/del.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/del.ctp',
+)
+Request URL: /cakephp_chat/messages/del/1
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 21:32:15 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/del.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/del.ctp',
+)
+Request URL: /cakephp_chat/messages/del/1
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 21:33:02 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/del.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/del.ctp',
+)
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 21:33:02 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/del.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/del.ctp',
+)
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 21:33:51 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/del.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/del.ctp',
+)
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 21:34:55 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/del.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/del.ctp',
+)
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 21:37:13 Error: Fatal Error (1): Call to a member function read() on a non-object in [/var/www/cakephp_chat/Controller/MessagesController.php, line 22]
+2014-01-02 21:37:13 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 22, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 22, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 21:38:37 Error: Fatal Error (1): Call to a member function read() on a non-object in [/var/www/cakephp_chat/Controller/MessagesController.php, line 22]
+2014-01-02 21:38:37 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 22, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 22, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 21:38:39 Error: Fatal Error (1): Call to a member function read() on a non-object in [/var/www/cakephp_chat/Controller/MessagesController.php, line 22]
+2014-01-02 21:38:39 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 22, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 22, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 21:39:09 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/del.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/del.ctp',
+)
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 21:40:32 Error: Fatal Error (1): Cannot use object of type Message as array in [/var/www/cakephp_chat/Controller/MessagesController.php, line 22]
+2014-01-02 21:40:32 Error: [FatalErrorException] Cannot use object of type Message as array
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/cakeph...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/cakeph...', 22, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/cakeph...', 22, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 21:40:33 Error: Fatal Error (1): Cannot use object of type Message as array in [/var/www/cakephp_chat/Controller/MessagesController.php, line 22]
+2014-01-02 21:40:33 Error: [FatalErrorException] Cannot use object of type Message as array
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/cakeph...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/cakeph...', 22, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/cakeph...', 22, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 21:40:34 Error: Fatal Error (1): Cannot use object of type Message as array in [/var/www/cakephp_chat/Controller/MessagesController.php, line 22]
+2014-01-02 21:40:34 Error: [FatalErrorException] Cannot use object of type Message as array
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/cakeph...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/cakeph...', 22, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/cakeph...', 22, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 21:41:33 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/del.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/del.ctp',
+)
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 21:41:59 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/del.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/del.ctp',
+)
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 21:43:24 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/del.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/del.ctp',
+)
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 21:47:11 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/del.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/del.ctp',
+)
+Request URL: /cakephp_chat/messages/del/7
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 21:59:36 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/add.ctp',
+)
+Request URL: /cakephp_chat/messages/add
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 22:48:03 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/add.ctp',
+)
+Request URL: /cakephp_chat/messages/add
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 22:58:53 Error: Fatal Error (4): syntax error, unexpected '(', expecting '{' in [/var/www/cakephp_chat/Controller/HomeController.php, line 3]
+2014-01-02 22:58:53 Error: [FatalErrorException] syntax error, unexpected '(', expecting '{'
+Request URL: /cakephp_chat/Home
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 3, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 3, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 22:59:12 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'finByUserId' at line 1
+Request URL: /cakephp_chat/Home
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('finByUserId', Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('finByUserId', Array, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('finByUserId', Array, Array)
+#4 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(800): DboSource->query('finByUserId', Array, Object(Thread))
+#5 /var/www/cakephp_chat/Controller/HomeController.php(6): Model->__call('finByUserId', Array)
+#6 /var/www/cakephp_chat/Controller/HomeController.php(6): Thread->finByUserId('21')
+#7 [internal function]: HomeController->index()
+#8 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#9 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-02 22:59:14 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'finByUserId' at line 1
+Request URL: /cakephp_chat/Home
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('finByUserId', Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('finByUserId', Array, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('finByUserId', Array, Array)
+#4 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(800): DboSource->query('finByUserId', Array, Object(Thread))
+#5 /var/www/cakephp_chat/Controller/HomeController.php(6): Model->__call('finByUserId', Array)
+#6 /var/www/cakephp_chat/Controller/HomeController.php(6): Thread->finByUserId('21')
+#7 [internal function]: HomeController->index()
+#8 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#9 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-02 22:59:15 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'finByUserId' at line 1
+Request URL: /cakephp_chat/Home
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('finByUserId', Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('finByUserId', Array, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('finByUserId', Array, Array)
+#4 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(800): DboSource->query('finByUserId', Array, Object(Thread))
+#5 /var/www/cakephp_chat/Controller/HomeController.php(6): Model->__call('finByUserId', Array)
+#6 /var/www/cakephp_chat/Controller/HomeController.php(6): Thread->finByUserId('21')
+#7 [internal function]: HomeController->index()
+#8 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#9 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-02 23:00:00 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Home/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Home/index.ctp',
+)
+Request URL: /cakephp_chat/Home
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-02 23:26:48 Error: Fatal Error (4): syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/var/www/cakephp_chat/Controller/HomeController.php, line 7]
+2014-01-02 23:26:48 Error: [FatalErrorException] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cakephp_chat/home/index
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 7, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 7, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 23:26:49 Error: Fatal Error (4): syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/var/www/cakephp_chat/Controller/HomeController.php, line 7]
+2014-01-02 23:26:49 Error: [FatalErrorException] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cakephp_chat/home/index
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 7, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 7, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 23:26:50 Error: Fatal Error (4): syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/var/www/cakephp_chat/Controller/HomeController.php, line 7]
+2014-01-02 23:26:50 Error: [FatalErrorException] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cakephp_chat/home/index
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 7, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 7, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 23:26:51 Error: Fatal Error (4): syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/var/www/cakephp_chat/Controller/HomeController.php, line 7]
+2014-01-02 23:26:51 Error: [FatalErrorException] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cakephp_chat/home/index
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 7, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 7, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 23:34:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Thread.created DESC' in 'field list'
+Request URL: /cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Thread....', Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Thread....', Array, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Thread....', false)
+#4 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(2900): DboSource->read(Object(Thread), Array)
+#5 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(Thread))
+#8 /var/www/cakephp_chat/Controller/ThreadsController.php(20): Model->__call('findById', Array)
+#9 /var/www/cakephp_chat/Controller/ThreadsController.php(20): Thread->findById('34', Array)
+#10 [internal function]: ThreadsController->chat()
+#11 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ThreadsController), Array)
+#12 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#14 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-01-02 23:51:56 Error: Fatal Error (4): syntax error, unexpected '"<a href='#'>Edit</a>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 16]
+2014-01-02 23:51:56 Error: [FatalErrorException] syntax error, unexpected '"<a href='#'>Edit</a>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 16, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 16, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 23:51:57 Error: Fatal Error (4): syntax error, unexpected '"<a href='#'>Edit</a>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 16]
+2014-01-02 23:51:57 Error: [FatalErrorException] syntax error, unexpected '"<a href='#'>Edit</a>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 16, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 16, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 23:52:12 Error: Fatal Error (4): syntax error, unexpected '"<a href='#'>Edit</a>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 16]
+2014-01-02 23:52:12 Error: [FatalErrorException] syntax error, unexpected '"<a href='#'>Edit</a>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 16, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 16, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 23:52:13 Error: Fatal Error (4): syntax error, unexpected '"<a href='#'>Edit</a>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 16]
+2014-01-02 23:52:13 Error: [FatalErrorException] syntax error, unexpected '"<a href='#'>Edit</a>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 16, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 16, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 23:52:13 Error: Fatal Error (4): syntax error, unexpected '"<a href='#'>Edit</a>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 16]
+2014-01-02 23:52:13 Error: [FatalErrorException] syntax error, unexpected '"<a href='#'>Edit</a>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 16, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 16, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 00:04:19 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/cakephp_chat/Controller/MessagesController.php, line 27]
+2014-01-03 00:04:19 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakephp_chat/messages/del/45
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 00:13:27 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/add.ctp',
+)
+Request URL: /cakephp_chat/messages/add
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-03 00:13:55 Error: [MissingViewException] View file "/var/www/cakephp_chat/View/Messages/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Messages/add.ctp',
+)
+Request URL: /cakephp_chat/messages/add
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-03 00:49:51 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/cakephp_chat/Controller/MessagesController.php, line 30]
+2014-01-03 00:49:51 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp_chat/messages/edit/48
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 30, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 30, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 01:15:38 Error: Fatal Error (1): Call to undefined function now() in [/var/www/cakephp_chat/Controller/MessagesController.php, line 34]
+2014-01-03 01:15:38 Error: [FatalErrorException] Call to undefined function now()
+Request URL: /cakephp_chat/messages/edit/47
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 34, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 34, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -6,22 +6,13 @@
     	}
 
 		function index(){
-			$data = $this->User->find('all');
-			foreach ($data as $user) {
-				if( $user['User']['id'] == $this->Session->read('Auth.User.id') ) {
-					$thread_owned = $user['Thread'];
-				} else {
-					$thread_other[] = $user['Thread'];
-				}	
-			}
-			$this->set('thread_owned',$thread_owned);
-			$this->set('thread_other',$thread_other);
+			
 		}
 
 	    function login() {
 	    	// if isAuthorized move to index
 	    	if ($this->Session->check('Auth.User')){
-    			$this->redirect( array('action' => 'index') );
+    			$this->redirect( array('controller' =>'users', 'action' => 'index') );
 			}
 	        if ($this->request->is('post')) {
 	            if ($this->Auth->login()) {

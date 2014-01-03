@@ -33,6 +33,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			<h1><?php 
 				if ($this->Session->check('Auth.User')){
 					echo '<h3>Welcome you, '.$this->Session->read('Auth.User.username').'</h3>';
+					echo '<h1><a href='.$this->webroot.'home/index>Home Chat</a></h1>';
 					echo '<h1><a href='.$this->webroot.'users/index>Your Index</a></h1>';
 					echo '<h1><a href='.$this->webroot.'users/logout>Logout</a></h1>';
 				}
