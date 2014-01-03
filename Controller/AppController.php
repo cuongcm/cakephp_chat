@@ -27,7 +27,7 @@ class AppController extends Controller {
         'DebugKit.Toolbar',
         'Session',
         'Auth'=>array(
-            'loginRedirect'=>array('controller'=>'users', 'action'=>'index'),
+            'loginRedirect'=>array('controller'=>'home', 'action'=>'index'),
             'logoutRedirect'=>array('controller'=>'users', 'action'=>'login'),
             'authError'=>"You can't access that page",
             'authorize'=>array('Controller')
@@ -39,6 +39,7 @@ class AppController extends Controller {
     }
     
     public function beforeFilter() {
+        $this->layout = 'myLayout';
         $this->Auth->allow('register');
         $this->set('logged_in', $this->Auth->loggedIn());
         $this->set('current_user', $this->Auth->user());

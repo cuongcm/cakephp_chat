@@ -1411,3 +1411,117 @@ Stack Trace:
 #3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-01-03 18:39:35 Error: Fatal Error (1): Call to undefined method UsersController::layout() in [/var/www/cakephp_chat/Controller/AppController.php, line 42]
+2014-01-03 18:39:35 Error: [FatalErrorException] Call to undefined method UsersController::layout()
+Request URL: /cakephp_chat/users/index
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 42, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 42, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 18:39:36 Error: Fatal Error (1): Call to undefined method UsersController::layout() in [/var/www/cakephp_chat/Controller/AppController.php, line 42]
+2014-01-03 18:39:36 Error: [FatalErrorException] Call to undefined method UsersController::layout()
+Request URL: /cakephp_chat/users/index
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 42, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 42, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 18:39:37 Error: Fatal Error (1): Call to undefined method UsersController::layout() in [/var/www/cakephp_chat/Controller/AppController.php, line 42]
+2014-01-03 18:39:37 Error: [FatalErrorException] Call to undefined method UsersController::layout()
+Request URL: /cakephp_chat/users/index
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 42, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 42, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 18:39:38 Error: Fatal Error (1): Call to undefined method UsersController::layout() in [/var/www/cakephp_chat/Controller/AppController.php, line 42]
+2014-01-03 18:39:38 Error: [FatalErrorException] Call to undefined method UsersController::layout()
+Request URL: /cakephp_chat/users/index
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 42, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 42, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 18:39:58 Error: [MissingLayoutException] Layout file "/var/www/cakephp_chat/View/Layouts/mylayout.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Layouts/mylayout.ctp',
+)
+Request URL: /cakephp_chat/users/index
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(498): View->_getLayoutFileName('mylayout')
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(468): View->renderLayout('', 'mylayout')
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#4 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-01-03 18:39:59 Error: [MissingLayoutException] Layout file "/var/www/cakephp_chat/View/Layouts/mylayout.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Layouts/mylayout.ctp',
+)
+Request URL: /cakephp_chat/users/index
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(498): View->_getLayoutFileName('mylayout')
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(468): View->renderLayout('', 'mylayout')
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#4 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-01-03 18:40:00 Error: [MissingLayoutException] Layout file "/var/www/cakephp_chat/View/Layouts/mylayout.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp_chat/View/Layouts/mylayout.ctp',
+)
+Request URL: /cakephp_chat/users/index
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(498): View->_getLayoutFileName('mylayout')
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(468): View->renderLayout('', 'mylayout')
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#4 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-01-03 21:05:53 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/cakephp_chat/View/Messages/edit.ctp, line 5]
+2014-01-03 21:05:53 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp_chat/messages/edit/57
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 5, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 5, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 22:17:28 Error: Fatal Error (1): Call to a member function submit() on a non-object in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 11]
+2014-01-03 22:17:28 Error: [FatalErrorException] Call to a member function submit() on a non-object
+Request URL: /cakephp_chat/threads/chat/id:36
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 11, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 11, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 22:18:07 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AjaxHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp_chat/threads/chat/id:36
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(867): HelperCollection->load('Ajax', Array)
+#1 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(341): View->loadHelpers()
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(1240): View->__construct(Object(ThreadsController))
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(938): Controller->_getViewObject()
+#4 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#5 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
