@@ -11,19 +11,7 @@
 	echo $this->Form->end();
 ?>
 </div>
-<?php
-	foreach ($data_thread['Message'] as $message) {
-		if ($message['deleted'] == '1') {
-			echo "<h4  style='color:black !important'>".$message['created_by'].' : '.'Deleted -- Timestamp : '.$message['updated'].'</h4>';
-		} elseif ($message['created_by'] == $this->Session->read('Auth.User.username')) {
-			echo "<h4  style='color:red !important'>".$message['created_by'].' : '.$message['content'].' -- Timestamp : '.$message['updated']." "
-			."<a href=".$this->webroot."messages/edit/".$message['id'].">Edit</a>"." "
-			."<a href=".$this->webroot."messages/del/".$message['id'].">Del</a>"." ".'</h4>';
-		} else {
-			echo "<h4>".$message['created_by'].' : '.$message['content'].' -- Timestamp : '.$message['updated'].'</h4>';
-		}
-		
-	}
-
-
-?>
+<?php echo $this->Html->script('autoreload.js'); ?>
+<div id=''>
+<?php echo $this->element('recentMsg'); ?>
+</div>

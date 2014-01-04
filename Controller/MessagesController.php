@@ -41,6 +41,20 @@ class MessagesController extends AppController{
     		$this->set('message_id',$this->Message->data['Message']['id']);
     	}
     }
+    public function getlastmsg($thread_id){
+        $this->layout = false;
+        $data_msg = $this->Message->find('all',array( 
+            'conditions' => array('Message.thread_id' => $thread_id),
+            'order' => array('Message.created DESC'),
+            'limit' => 10
+            ));
+        //pr($data_msg);
+        if (!empty($this->request->params['requested'])) {
+            return $data_msg;
+        }
+        $this->set('data_msg',$data_msg);
+
+    }
 }
 
 ?>

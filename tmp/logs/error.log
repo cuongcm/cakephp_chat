@@ -1525,3 +1525,3362 @@ Stack Trace:
 #5 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
 #6 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #7 {main}
+2014-01-03 22:45:27 Error: Fatal Error (1): Call to a member function link() on a non-object in [/var/www/cakephp_chat/View/Threads/chat.ctp, line 21]
+2014-01-03 22:45:27 Error: [FatalErrorException] Call to a member function link() on a non-object
+Request URL: /cakephp_chat/threads/chat/id:43
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 21, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 21, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 23:04:51 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/cakephp_chat/Controller/MessagesController.php, line 51]
+2014-01-03 23:04:51 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakephp_chat/messages/getlastmsg/36
+Stack Trace:
+#0 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 51, Array)
+#2 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 51, Array)
+#3 /var/www/cakephp_chat/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-04 00:23:36 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:23:40 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:23:41 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:23:45 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:23:46 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:23:50 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:23:51 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:23:55 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:23:56 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:00 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:01 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:05 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:06 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:10 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:11 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:15 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:16 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:21 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:26 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:31 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:41 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:46 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:51 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:56 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:24:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:01 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:06 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:11 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:16 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:21 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:26 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:31 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:36 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:41 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:46 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:51 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:56 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:25:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:01 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:06 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:11 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:16 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:21 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:26 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:31 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:36 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:41 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:46 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:51 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:56 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:26:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:01 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:06 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:11 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:16 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:21 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:26 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:27:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:28:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:29:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:30:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:23 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:28 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:33 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:40 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:45 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:50 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:55 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:31:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:00 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:05 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:10 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:15 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:20 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:25 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:30 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:35 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:40 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:45 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:50 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:55 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:32:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:00 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:05 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:10 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:15 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:20 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:25 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:30 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:35 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:40 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:45 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:50 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:55 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:33:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:00 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:05 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:10 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:15 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:20 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:25 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:30 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:35 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:40 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:45 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:34:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:35:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:35:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:35:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:35:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:35:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:35:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:35:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:35:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:35:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:35:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:35:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:36:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:37:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:25 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:27 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:30 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:32 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:35 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:37 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:40 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:42 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:45 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:47 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:50 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:52 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:55 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:38:57 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:00 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:02 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:05 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:07 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:10 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:12 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:15 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:17 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:20 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:22 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:25 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:28 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:30 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:33 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:35 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:38 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:40 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:43 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:45 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:48 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:50 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:53 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:55 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:39:58 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:40:00 Error: [MissingControllerException] Controller class CakephpChatController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpChatController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_chat/cakephp_chat/threads/chat/id:34
+Stack Trace:
+#0 /var/www/cakephp_chat/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
